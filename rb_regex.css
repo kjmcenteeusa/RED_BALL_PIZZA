@@ -1,0 +1,30 @@
+New Perspectives on HTML and CSS, 7th Edition
+Regular Expression Patterns
+Tutorial 7
+Tutorial Case
+=============================================
+
+
+Postal Code Regular Expression
+^\d{5}(-\d{4})?$
+/*
+^=Must start with this. There cannot be anything before.
+$=Must end with this. There cannot be anything after.
+\d=Special command (escape sequence). Don't take "d" as a charecter. This is a digit.
+{5}=Must have string of 5 characters.
+()=Text inside is for 9-digit zip code. Almost like div or container.
+-=just a hyphen.
+?=
+*/
+
+/*
+
+Phone Number Regular Expression
+^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$
+|=Or.
+(=Open parentheses for phone number format.
+\s=space
+*=Don't care how many spaces.
+
+
+
